@@ -46,27 +46,23 @@ header ul li:last-of-type{
 main{
     padding-top: 84px;
     background-color: rgb(85, 80, 80);
+    min-height: 150vh;
 }
 
-.div-imagen-inicio{
-    padding: 2% 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+section{
+    padding: 4%;
 }
+
+p .text-center{
+    display: flex;
+    flex: content;
+}
+
 .imagen-inicio{
     height: 40%;
-    width: 25%;
+    width: 86%;
 }
 
-
-.div-videos-inicio{
-    display: flex;
-    flex-direction: row;
-    padding: 15px 50px;
-    justify-content: space-between;
-}
 .videos-inicio{
     width: 374px;
     height: 315px;
@@ -74,6 +70,7 @@ main{
 
 /* footer */
 footer ul{
+    margin-bottom: 0%;
     background-color: rgb(33, 33, 36);
     display: flex;
     flex-direction: row;
@@ -96,7 +93,6 @@ footer .letra-footer{
 }
 .imagen-anime{
     height: 40%;
-    width: 25%;
 }
 .div-videos-anime{
     display: flex;
@@ -118,8 +114,7 @@ footer .letra-footer{
     align-items: center;
 }
 .imagen-manga{
-    height: 40%;
-    width: 25%;
+    height: 54%;
 }
 
 /* peliculas */
@@ -131,8 +126,7 @@ footer .letra-footer{
     align-items: center;
 }
 .imagen-pelicula{
-    height: 40%;
-    width: 25%;
+    height: 30%;
 }
 .div-videos-peliculas{
     display: flex;

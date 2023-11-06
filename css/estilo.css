@@ -59,8 +59,7 @@ p .text-center{
 }
 
 .imagen-inicio{
-    height: 40%;
-    width: 86%;
+    height: 32%;
 }
 
 .videos-inicio{
@@ -84,21 +83,8 @@ footer .letra-footer{
 }
 
 /* anime */
-.div-imagen-anime{
-    padding: 2% 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 .imagen-anime{
-    height: 40%;
-}
-.div-videos-anime{
-    display: flex;
-    flex-direction: row;
-    padding: 15px 50px;
-    justify-content: space-between;
+    height: 42%;
 }
 .videos-anime{
     width: 374px;
@@ -106,33 +92,13 @@ footer .letra-footer{
 }
 
 /* manga */
-.div-imagen-manga{
-    padding: 2% 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 .imagen-manga{
-    height: 54%;
+    height: 62%;
 }
 
 /* peliculas */
-.div-imagen-peliculas{
-    padding: 2% 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 .imagen-pelicula{
-    height: 30%;
-}
-.div-videos-peliculas{
-    display: flex;
-    flex-direction: row;
-    padding: 15px 50px;
-    justify-content: space-between;
+    height: 24%;
 }
 .videos-peliculas{
     width: 374px;
@@ -185,19 +151,17 @@ footer .letra-footer{
         padding-top: 84px;
         width: auto;
     }
-    .div-imagen-inicio{
-        padding: 1%;
+    section{
+        padding: 4%;
+        display: flex;
         flex-direction: column;
+    }
+    article{
+        padding: 5% 4%;
     }
     .imagen-inicio{
         width: 50%;
         padding: 1% 7% ;
-    }
-    .div-videos-inicio{
-        display: flex;
-        flex-direction: column;
-        padding: 2% 1%;
-        justify-content: space-between;
     }
     .videos-inicio{
         width: 100%;
@@ -205,49 +169,23 @@ footer .letra-footer{
     }
 
     /* anime */
-    .div-imagen-anime{
-        padding: 1%;
-        flex-direction: column;
-    }
     .imagen-anime{
         width: 50%;
         padding: 1% 7%;
-    }
-    .div-videos-anime{
-        display: flex;
-        flex-direction: column;
-        padding: 2% 1%;
-        justify-content: space-between;
     }
     .videos-anime{
         width: 100%;
         height: 280px;
     }
     /* manga */
-    .div-imagen-manga{
-        padding: 2% 5%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
     .imagen-manga{
         height: 40%;
         width: 25%;
     }
     /* peliculas*/
-    .div-imagen-peliculas{
-        padding: 1%;
-        flex-direction: column;
-    }
     .imagen-pelicula{
         width: 50%;
         padding: 1% 7%;
-    }
-    .div-videos-peliculas{
-        flex-direction: column;
-        padding: 2% 1%;
-        justify-content: space-between;
     }
     .videos-peliculas{
         width: 100%;

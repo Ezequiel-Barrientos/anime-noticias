@@ -1,0 +1,19 @@
+.imagen-pelicula{
+    height: 24%;
+}
+.videos-peliculas{
+    width: 374px;
+    height: 315px;
+}
+
+// media mobyle
+@media (max-width:375.2px){
+    .imagen-pelicula{
+        width: 50%;
+        padding: 1% 7%;
+    }
+    .videos-peliculas{
+        width: 100%;
+        height: 280px;
+    }
+}

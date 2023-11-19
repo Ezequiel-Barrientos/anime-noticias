@@ -1,0 +1,44 @@
+main{
+    padding-top: 84px;
+    background-color: $color-secundario;
+    min-height: 150vh;
+    section{
+        padding: 4%;
+        .text-center{
+            display: flex;
+            flex: content;
+            .imagen-inicio{
+                justify-content: center;
+                height: 32%;
+            }
+            .video-inicio{
+                width: 374px;
+                height: 315px;
+            }
+        }
+    }
+}
+
+// media mobyle
+@media (max-width:375.2px){
+   main{
+    padding-top: 84px;
+    width: auto;
+    section{
+        padding: 4%;
+        display: flex;
+        flex-direction: column;
+        article{
+            padding: 5% 4%;
+            .imagen-inicio{
+                width: 50%;
+                padding: 1% 7%;
+            }
+            .videos-inicio{
+                width: 100%;
+                height: 280px;
+            }
+        }
+    }
+   }
+}

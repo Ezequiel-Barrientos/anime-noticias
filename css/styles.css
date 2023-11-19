@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: "poppins", sans-serif;
+}
+
+.bg-body-tertiary {
+  width: 100%;
+  height: 8%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-fluid {
+  background-color: #252527;
+}
+
+.navbar-brand {
+  height: auto;
+  margin: 0;
+}
+
+.navbar-collapse {
+  justify-content: right;
+}
+
+.nav-link {
+  color: white;
+}
+
+header img {
+  width: 60px;
+}
+
+header ul li {
+  border-right: 2px solid white;
+  font-size: 20px;
+}
+
+header ul li:last-of-type {
+  border-right: 0px;
+}
+
+main {
+  padding-top: 84px;
+  background-color: #555050;
+  min-height: 150vh;
+}
+main section {
+  padding: 4%;
+}
+main section .text-center {
+  display: flex;
+  flex: content;
+}
+main section .text-center .imagen-inicio {
+  justify-content: center;
+  height: 32%;
+}
+main section .text-center .video-inicio {
+  width: 374px;
+  height: 315px;
+}
+
+@media (max-width: 375.2px) {
+  main {
+    padding-top: 84px;
+    width: auto;
+  }
+  main section {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  main section article {
+    padding: 5% 4%;
+  }
+  main section article .imagen-inicio {
+    width: 50%;
+    padding: 1% 7%;
+  }
+  main section article .videos-inicio {
+    width: 100%;
+    height: 280px;
+  }
+}
+footer ul {
+  margin-bottom: 0%;
+  background-color: #252527;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 20px;
+}
+footer ul .letra-footer {
+  color: white;
+}
+
+@media (max-width: 375.2px) {
+  footer {
+    height: 175px;
+    width: auto;
+  }
+  footer ul {
+    padding: 10px;
+  }
+}
+.imagen-anime {
+  height: 42%;
+}
+
+.videos-anime {
+  width: 374px;
+  height: 315px;
+}
+
+@media (max-width: 375.2px) {
+  .imagen-anime {
+    width: 50%;
+    padding: 1% 7%;
+  }
+  .videos-anime {
+    width: 100%;
+    height: 280px;
+  }
+}
+.imagen-manga {
+  height: 62%;
+}
+
+@media (max-width: 375.2px) {
+  .imagen-manga {
+    height: 40%;
+    width: 25%;
+  }
+}
+.imagen-pelicula {
+  height: 24%;
+}
+
+.videos-peliculas {
+  width: 374px;
+  height: 315px;
+}
+
+@media (max-width: 375.2px) {
+  .imagen-pelicula {
+    width: 50%;
+    padding: 1% 7%;
+  }
+  .videos-peliculas {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

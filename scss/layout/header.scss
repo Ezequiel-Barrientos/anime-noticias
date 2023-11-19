@@ -1,0 +1,41 @@
+.bg-body-tertiary{
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.container-fluid{
+    background-color: $color-primario;
+}
+
+.navbar-brand{
+    height: auto;
+    margin: 0;
+}
+
+.navbar-collapse{
+    justify-content: right;
+}
+
+.nav-link{
+    color: white;
+}
+
+header img{
+    width: 60px;
+}
+
+header ul li{
+    border-right: 2px solid white;
+    font-size: 20px;
+}
+
+header ul li:last-of-type{
+    border-right: 0px;
+}

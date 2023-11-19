@@ -1,0 +1,12 @@
+.imagen-manga {
+  height: 62%;
+}
+
+@media (max-width: 375.2px) {
+  .imagen-manga {
+    height: 40%;
+    width: 25%;
+  }
+}
+
+/*# sourceMappingURL=manga.css.map */

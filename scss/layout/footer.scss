@@ -1,0 +1,24 @@
+footer ul{
+    margin-bottom: 0%;
+    background-color: $color-primario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    .letra-footer{
+        color: white;
+    }
+}
+
+// media mobyle
+@media (max-width:375.2px){
+    footer{
+        height: 175px;
+        width: auto;
+        ul{
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+// GENERAL
+@import "./general/variables.scss";
+@import "./general/reset.scss";
+
+// LAYOUT
+@import "./layout/header.scss";
+@import "./layout/main.scss";
+@import "./layout/footer.scss";
+
+// PAGINAS
+@import "./paginas/anime.scss";
+@import "./paginas/manga.scss";
+@import "./paginas/peliculas.scss";
+@import "./paginas/iniciarsesion.scss";
